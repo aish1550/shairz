@@ -1,0 +1,15 @@
+{
+  "name": "shairz",
+  "version": "1.0.0",
+  "description": "shopping ingredients and recipe tracking app",
+  "main": "index.js",
+  "repository": "git@github.com:aish1550/shairz.git",
+  "author": "Aadam Ishmael <Aadam@crabclaw.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
