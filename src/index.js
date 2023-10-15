@@ -1,16 +1,9 @@
 import express from "express";
+import bodyParser from "body-parser";
 
 const app = express();
 
-// app.use((req, res, next) => {
-//   console.warn("first middleware");
-//   next();
-// });
-
-// app.use((req, res, next) => {
-//   console.warn("second middleware");
-//   res.send("<h1>hello</h1>");
-// });
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use("/users", (req, res, next) => {
   res.send(`<h1>Users</h1>`);
