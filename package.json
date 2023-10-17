@@ -2,7 +2,6 @@
   "name": "shairz",
   "version": "1.0.0",
   "description": "shopping ingredients and recipe tracking app",
-  "type": "module",
   "main": "./src/index.js",
   "repository": "git@github.com:aish1550/shairz.git",
   "author": "Aadam Ishmael <Aadam@crabclaw.co.uk>",
